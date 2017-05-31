@@ -17,6 +17,7 @@ restService.post('/echo', function(req, res) {
         speech: speech,
         displayText: speech,
         source: 'webhook-echo-sample'
+        title:'Test card'
     });
 });
 
